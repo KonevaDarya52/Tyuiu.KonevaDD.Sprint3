@@ -8,7 +8,7 @@ namespace Tyuiu.KonevaDD.Sprint3.Task1.V28.Lib
             double sumSeries = 0;
             for (int k = startValue; k <= stopValue; k++)
             {
-                double term = (Math.Pow(a, k) + 0.25) * Math.Cos(k * Math.PI / 180);
+                double term = (Math.Pow(a, k) + 0.25) * Math.Cos(k);
                 sumSeries += term;
             }
             return Math.Round(sumSeries, 3);
