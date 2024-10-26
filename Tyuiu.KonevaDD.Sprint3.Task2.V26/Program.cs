@@ -24,7 +24,7 @@ namespace Tyuiu.KonevaDD.Sprint3.Task1.V26
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            double result = ds.GetSumSeries(value, startValue, stopValue);
+            double result = ds.GetMultiplySeries(value, startValue, stopValue);
             Console.WriteLine("Произведение ряда = " + result);
             Console.ReadKey();
         }

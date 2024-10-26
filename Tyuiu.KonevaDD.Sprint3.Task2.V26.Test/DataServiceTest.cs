@@ -7,14 +7,14 @@ namespace Tyuiu.KonevaDD.Sprint3.Task1.V26.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void GetSumSeries()
+        public void GetMultiplySeries()
         {
             DataService ds = new DataService();
             double value = 0.25;
             int startValue = 1;
             int stopValue = 17;
 
-            double result = ds.GetSumSeries(value, startValue, stopValue);
+            double result = ds.GetMultiplySeries(value, startValue, stopValue);
 
             double expected = 411589.5372020042; 
             Assert.AreEqual(expected, result, 0.001);
