@@ -6,16 +6,12 @@ namespace Tyuiu.KonevaDD.Sprint3.Task1.V28.Lib
         public double GetSumSeries(double a, int startValue, int stopValue)
         {
             double sumSeries = 0;
-            int k = startValue;
-
-            while (k <= stopValue)
+            for (int k = startValue; k <= stopValue; k++)
             {
-                double term = (Math.Pow(a, k) + 0.25) * Math.Cos(k);
+                double term = (Math.Pow(a, k) + 0.25) * Math.Cos(k * Math.PI / 180);
                 sumSeries += term;
-                k++;
             }
-
-            return sumSeries;
+            return Math.Round(sumSeries, 3);
         }
     }
 }

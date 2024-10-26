@@ -12,7 +12,7 @@ namespace Tyuiu.KonevaDD.Sprint3.Task1.V28
             int startValue = 1;
             int stopValue = 18; 
             double a = 0.5; 
-            Console.WriteLine("Переменная a =  " + a);
+            Console.WriteLine("Переменная  a =  " + a);
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага =  " + stopValue);
             Console.WriteLine("***************************************************************************");
