@@ -14,10 +14,10 @@ namespace Tyuiu.KonevaDD.Sprint3.Task1.V26.Test
             int startValue = 1;
             int stopValue = 17;
 
-            double result = ds.GetMultiplySeries(value, startValue, stopValue);
+            double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
-            double expected = 411589.5372020042; 
-            Assert.AreEqual(expected, result, 0.001);
+            double wait = 411589.537;
+            Assert.AreEqual(wait, res, 0.001);
         }
     }
 }
