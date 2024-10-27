@@ -11,8 +11,8 @@ namespace Tyuiu.KonevaDD.Sprint3.Task5.V19
             Console.WriteLine("***************************************************************************");
             int x = 2;
             int startValue1 = 1; 
-            int stopValue1 = 3;
-            int startValue2 = 1; 
+            int stopValue1 = 1;
+            int startValue2 = 3;
             int stopValue2 = 6;
             Console.WriteLine("Переменная Х  = " + x);
             Console.WriteLine("Старт шага первой суммы ряда = " + startValue1);

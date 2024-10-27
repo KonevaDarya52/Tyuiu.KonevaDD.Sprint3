@@ -9,8 +9,10 @@ namespace Tyuiu.KonevaDD.Sprint3.Task5.V19.Lib
         {
             double sumSeries = 0;
 
+      
             for (int i = startValue1; i <= stopValue1; i++)
             {
+                
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
                     double term = Math.Pow((double)x / Math.Cos(x), k);
