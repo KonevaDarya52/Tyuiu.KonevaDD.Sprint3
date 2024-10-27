@@ -5,17 +5,15 @@ namespace Tyuiu.KonevaDD.Sprint3.Task5.V19.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetSumSumSeries()
+        public void GetSumSumSeries_WithX2_ReturnsCorrectResult()
         {
-            DataService ds = new DataService();
+            
+            DataService dataService = new DataService();
             int x = 2;
-            int startValue1 = 1;
-            int stopValue1 = 1; 
-            int startValue2 = 3;
-            int stopValue2 = 6; 
-            double res = ds.GetSumSumSeries(x, startValue1, stopValue1, startValue2, stopValue2);
+            int startValue1 = 1, startValue2 = 1, stopValue1 = 3, stopValue2 = 6;
             double expected = 30598.002;
-            Assert.AreEqual(expected, res, 0.001); 
+            double actual = dataService.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
+            Assert.AreEqual(expected, actual, 0.0001);
         }
     }
 }
