@@ -13,7 +13,7 @@ namespace Tyuiu.KonevaDD.Sprint3.Task5.V19.Lib
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    double term = Math.Pow(x / Math.Cos(x), k);
+                    double term = Math.Pow((double)x / Math.Cos(x), k);
                     sumSeries += term;
                 }
             }
