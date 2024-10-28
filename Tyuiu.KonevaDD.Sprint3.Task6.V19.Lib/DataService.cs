@@ -5,20 +5,20 @@ namespace Tyuiu.KonevaDD.Sprint3.Task6.V19.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            int sum = 0;
+            int count = 0;
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                for (int d = 1; d < 8; d++) 
+                for (int d = 1; d < 8; d++)
                 {
                     if (x % d == 0)
                     {
-                        sum += d;
+                        count++; 
                     }
                 }
             }
 
-            return sum;
+            return count; 
         }
     }
 }
