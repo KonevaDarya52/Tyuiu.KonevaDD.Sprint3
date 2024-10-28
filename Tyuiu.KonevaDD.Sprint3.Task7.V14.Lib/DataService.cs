@@ -19,8 +19,8 @@ namespace Tyuiu.KonevaDD.Sprint3.Task7.V14.Lib
                 }
                 else
                 {
-                    
-                    result[i] = Math.Round(Math.Sin(x), 2);  
+               
+                    result[i] = Math.Round(2 * x - 4 + (2 * x - 1) / sinXPlus1, 2);
                 }
             }
 
